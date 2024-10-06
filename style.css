@@ -568,3 +568,46 @@ footer .copyright {
 #pro-details .single-pro-details span {
     line-height: 25px;
 }
+
+/* About Page */
+
+#about-header {
+    background-image: url("img/about/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#about-header h2,
+#about-header p {
+    color: white;
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+#about-head div {
+    padding-left: 40px;
+}
+
+#about-app {
+    text-align: center;
+}
+#about-app .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
